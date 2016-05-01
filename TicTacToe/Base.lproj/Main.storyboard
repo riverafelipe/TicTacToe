@@ -29,49 +29,49 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngo-xw-ORb" userLabel="Button2">
                                 <rect key="frame" x="126" y="138" width="124" height="125"/>
                                 <connections>
-                                    <action selector="square2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oi9-M5-aPy"/>
+                                    <action selector="square2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iuI-vr-sUe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXl-te-pdy" userLabel="Button3">
                                 <rect key="frame" x="251" y="138" width="124" height="125"/>
                                 <connections>
-                                    <action selector="square3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qaG-Og-jQH"/>
+                                    <action selector="square3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVO-0g-Pkr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqy-6r-Qag" userLabel="Button4">
                                 <rect key="frame" x="0.0" y="264" width="124" height="135"/>
                                 <connections>
-                                    <action selector="square4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z9w-MB-4bG"/>
+                                    <action selector="square4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MrK-aQ-RTf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TE7-ea-wjh" userLabel="Button5">
                                 <rect key="frame" x="126" y="264" width="124" height="135"/>
                                 <connections>
-                                    <action selector="square5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="234-S0-rkT"/>
+                                    <action selector="square5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lw6-vs-uuM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6K-jW-hwx" userLabel="Button6">
                                 <rect key="frame" x="251" y="264" width="124" height="135"/>
                                 <connections>
-                                    <action selector="square6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KuS-4m-0WN"/>
+                                    <action selector="square6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSD-lI-XSO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9k-4f-GUE" userLabel="Button7">
                                 <rect key="frame" x="0.0" y="400" width="124" height="125"/>
                                 <connections>
-                                    <action selector="square7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOg-rc-eV1"/>
+                                    <action selector="square7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHU-UO-FNK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxQ-mU-2XA" userLabel="Button8">
                                 <rect key="frame" x="126" y="400" width="124" height="125"/>
                                 <connections>
-                                    <action selector="square8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7YR-8e-sY9"/>
+                                    <action selector="square8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcY-wZ-HJp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBC-cu-syJ" userLabel="Button9">
                                 <rect key="frame" x="251" y="400" width="124" height="125"/>
                                 <connections>
-                                    <action selector="square9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r8q-eb-nJf"/>
+                                    <action selector="square9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ih9-cg-tlN"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6xx-iZ-lOB" userLabel="Image1">
@@ -83,11 +83,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5n-ES-ORQ" userLabel="Image3">
                                 <rect key="frame" x="254" y="138" width="119" height="125"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFC-7g-gs2" userLabel="Image4">
+                                <rect key="frame" x="5" y="269" width="119" height="125"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhU-Kg-brH" userLabel="Image5">
                                 <rect key="frame" x="129" y="269" width="119" height="125"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYD-1q-T4i" userLabel="Image6">
-                                <rect key="frame" x="251" y="269" width="119" height="125"/>
+                                <rect key="frame" x="254" y="269" width="119" height="125"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NaX-b4-yvL" userLabel="Image7">
                                 <rect key="frame" x="5" y="400" width="119" height="125"/>
@@ -98,23 +101,27 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TgK-s0-xFz" userLabel="Image9">
                                 <rect key="frame" x="254" y="400" width="119" height="125"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFC-7g-gs2" userLabel="Image4">
-                                <rect key="frame" x="5" y="269" width="119" height="125"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqn-je-7ka">
+                                <rect key="frame" x="162" y="538" width="50" height="30"/>
+                                <state key="normal" title="Restart"/>
+                                <connections>
+                                    <action selector="restartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFb-07-Mr4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="image1" destination="6xx-iZ-lOB" id="MQO-Wv-kSU"/>
-                        <outlet property="image2" destination="3OP-Nh-DDX" id="4kt-Ol-3Ck"/>
-                        <outlet property="image3" destination="h5n-ES-ORQ" id="CSO-C1-2Ua"/>
-                        <outlet property="image4" destination="HFC-7g-gs2" id="4lB-VX-Y3K"/>
-                        <outlet property="image5" destination="DhU-Kg-brH" id="qg8-Jb-rvZ"/>
-                        <outlet property="image6" destination="SYD-1q-T4i" id="n1l-WJ-EmT"/>
-                        <outlet property="image7" destination="NaX-b4-yvL" id="bVS-gz-ACE"/>
-                        <outlet property="image8" destination="x1b-ZO-jrF" id="Hyy-iU-uNw"/>
-                        <outlet property="image9" destination="TgK-s0-xFz" id="D4b-SG-kCy"/>
+                        <outlet property="image2" destination="3OP-Nh-DDX" id="8rC-8V-Fzb"/>
+                        <outlet property="image3" destination="h5n-ES-ORQ" id="toM-e2-bz6"/>
+                        <outlet property="image4" destination="HFC-7g-gs2" id="LOv-AP-7zk"/>
+                        <outlet property="image5" destination="DhU-Kg-brH" id="wrJ-Lz-q0o"/>
+                        <outlet property="image6" destination="SYD-1q-T4i" id="Yca-cC-g8S"/>
+                        <outlet property="image7" destination="NaX-b4-yvL" id="OPB-Na-mWK"/>
+                        <outlet property="image8" destination="x1b-ZO-jrF" id="hwo-A6-x2U"/>
+                        <outlet property="image9" destination="TgK-s0-xFz" id="UFQ-4S-DTL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

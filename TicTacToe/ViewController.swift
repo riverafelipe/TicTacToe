@@ -14,38 +14,50 @@ var xPlays: [Int] = []
 var oPlays: [Int] = []
 
 
-func winner() {
-    
-    if (xPlays.contains(1) && xPlays.contains(2) && xPlays.contains(3)) ||
-        (xPlays.contains(4) && xPlays.contains(5) && xPlays.contains(6)) ||
-        (xPlays.contains(7) && xPlays.contains(8) && xPlays.contains(9)) ||
-        (xPlays.contains(1) && xPlays.contains(4) && xPlays.contains(7)) ||
-        (xPlays.contains(2) && xPlays.contains(5) && xPlays.contains(8)) ||
-        (xPlays.contains(3) && xPlays.contains(6) && xPlays.contains(9)) ||
-        (xPlays.contains(1) && xPlays.contains(5) && xPlays.contains(9)) ||
-        (xPlays.contains(3) && xPlays.contains(5) && xPlays.contains(7)) {
-        
-        print("Player 1 Wins!")
-        
-    } else if (oPlays.contains(1) && oPlays.contains(2) && oPlays.contains(3)) ||
-    (oPlays.contains(4) && oPlays.contains(5) && oPlays.contains(6)) ||
-    (oPlays.contains(7) && oPlays.contains(8) && oPlays.contains(9)) ||
-    (oPlays.contains(1) && oPlays.contains(4) && oPlays.contains(7)) ||
-    (oPlays.contains(2) && oPlays.contains(5) && oPlays.contains(8)) ||
-    (oPlays.contains(3) && oPlays.contains(6) && oPlays.contains(9)) ||
-    (oPlays.contains(1) && oPlays.contains(5) && oPlays.contains(9)) ||
-    (oPlays.contains(3) && oPlays.contains(5) && oPlays.contains(7)) {
-    
-    print("Player 2 Wins!")
-    
-    }
-}
-
-
 class ViewController: UIViewController {
   
     var tapCount = 1
     
+    
+    // All possible combinations to win 
+    
+    func winner() {
+        
+        if (xPlays.contains(1) && xPlays.contains(2) && xPlays.contains(3)) ||
+            (xPlays.contains(4) && xPlays.contains(5) && xPlays.contains(6)) ||
+            (xPlays.contains(7) && xPlays.contains(8) && xPlays.contains(9)) ||
+            (xPlays.contains(1) && xPlays.contains(4) && xPlays.contains(7)) ||
+            (xPlays.contains(2) && xPlays.contains(5) && xPlays.contains(8)) ||
+            (xPlays.contains(3) && xPlays.contains(6) && xPlays.contains(9)) ||
+            (xPlays.contains(1) && xPlays.contains(5) && xPlays.contains(9)) ||
+            (xPlays.contains(3) && xPlays.contains(5) && xPlays.contains(7)) {
+            
+            resultImage.image = UIImage(named: "Player1Wins.png")
+            
+            print("Player 1 Wins!")
+            
+        } else if (oPlays.contains(1) && oPlays.contains(2) && oPlays.contains(3)) ||
+            (oPlays.contains(4) && oPlays.contains(5) && oPlays.contains(6)) ||
+            (oPlays.contains(7) && oPlays.contains(8) && oPlays.contains(9)) ||
+            (oPlays.contains(1) && oPlays.contains(4) && oPlays.contains(7)) ||
+            (oPlays.contains(2) && oPlays.contains(5) && oPlays.contains(8)) ||
+            (oPlays.contains(3) && oPlays.contains(6) && oPlays.contains(9)) ||
+            (oPlays.contains(1) && oPlays.contains(5) && oPlays.contains(9)) ||
+            (oPlays.contains(3) && oPlays.contains(5) && oPlays.contains(7)) {
+            
+            resultImage.image = UIImage(named: "Player2Wins.png")
+            
+            print("Player 2 Wins!")
+            
+        } else if tapCount == 10 {
+            
+            resultImage.image = UIImage(named: "drawGame.png")
+            
+            print("Draw!")
+            
+        }
+    }
+
   
     
     @IBOutlet var image1: UIImageView!
@@ -66,6 +78,14 @@ class ViewController: UIViewController {
         }
         
         tapCount += 1
+        
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
         
         winner()
         
@@ -90,6 +110,14 @@ class ViewController: UIViewController {
         
         tapCount += 1
         
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
+        
         winner()
 
     }
@@ -112,6 +140,14 @@ class ViewController: UIViewController {
         }
         
         tapCount += 1
+        
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
         
         winner()
 
@@ -137,6 +173,14 @@ class ViewController: UIViewController {
         
         tapCount += 1
         
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
+        
         winner()
 
     }
@@ -159,6 +203,14 @@ class ViewController: UIViewController {
         }
         
         tapCount += 1
+        
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
         
         winner()
 
@@ -183,6 +235,14 @@ class ViewController: UIViewController {
         
         tapCount += 1
         
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
+        
         winner()
     }
     
@@ -204,6 +264,14 @@ class ViewController: UIViewController {
         }
         
         tapCount += 1
+        
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
         
         winner()
 
@@ -228,6 +296,14 @@ class ViewController: UIViewController {
         
         tapCount += 1
         
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
+        
         winner()
 
     }
@@ -251,6 +327,14 @@ class ViewController: UIViewController {
         
         tapCount += 1
         
+        // Disables the button after being tapped
+        
+        let disableMyButton = sender as? UIButton
+        
+        disableMyButton!.enabled = false
+        
+        // checks for a winner
+        
         winner()
         
     }
@@ -268,6 +352,8 @@ class ViewController: UIViewController {
     
     }
     
+    
+    @IBOutlet var resultImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

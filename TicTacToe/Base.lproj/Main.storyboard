@@ -108,6 +108,9 @@
                                     <action selector="restartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFb-07-Mr4"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z0h-Pp-7bW" userLabel="ResultImage">
+                                <rect key="frame" x="-15" y="20" width="406" height="647"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -122,6 +125,7 @@
                         <outlet property="image7" destination="NaX-b4-yvL" id="OPB-Na-mWK"/>
                         <outlet property="image8" destination="x1b-ZO-jrF" id="hwo-A6-x2U"/>
                         <outlet property="image9" destination="TgK-s0-xFz" id="UFQ-4S-DTL"/>
+                        <outlet property="resultImage" destination="z0h-Pp-7bW" id="4Dh-ji-uGt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
